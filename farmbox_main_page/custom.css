@@ -1,0 +1,92 @@
+
+
+
+.navbar-nav {
+  margin-top: 0.8em;
+}
+
+.navbar .pull-left {
+  padding: 0.5em 2em;
+}
+
+.h2 {
+  font-size: 2em;
+}
+
+#theCarousel {
+  font-family: "Nanum Barun Gothic", sans-serif;
+  margin-top: 7em;
+}
+
+#theCarousel .carousel-inner .item {
+  max-height: 800px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+#theCarousel .btn {
+  color: white;
+  border: 1px solid white;
+  background-color: none;
+  margin-bottom: 14em;
+  font-size: 1.5em;
+}
+
+#theCarousel .btn:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+h4 {
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+
+#boxContents, .learn-more, #pixlee_container {
+  width: 100%;
+  padding: 5em;
+  margin-top: 15em;
+}
+
+#pixlee_container {
+  margin-bottom: 15em;
+}
+
+.slick-slide {
+    padding:10px;
+    text-align:center;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+.slick-slide img {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;;
+}
+
+#producer {
+  max-height: 24.5em;
+  object-fit: cover;
+}
+
+#RecipeCarousel .btn {
+  margin-bottom: 2em;
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+
+#RecipeCarousel .carousel-control.left {
+  margin-left: -30px;
+}
+
+#RecipeCarousel .carousel-control.right {
+  margin-right: -30px;
+}
+
+.row {
+  display: flex;
+}
+
+/*.navbar-nav li:hover {
+  border-bottom: 1px solid red;
+}*/

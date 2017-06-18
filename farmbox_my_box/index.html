@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <title></title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only"></span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="pull-left" href="#"><img src="farmboxlogo.png" width=80em></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">our story</a></li>
+            <li><a href="recipebook.pdf" target=_blank>recipes</a></li>
+            <li><a href="#">magazine</a></li>
+          </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">My Box</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+
+      <div class="row">
+        <div id="weekBox" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div id="contain">
+            <h2>금주의 박스</h2>
+            <div id="weekBox-inner">
+              <h4>원하지 않는 품목을 체크해주세요.</h4>
+              <div class="pre-scrollable">
+                <div id="checkboxes">
+                  <div id="type" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form>
+                    <h5>육류</h5>
+                    <ul>
+                      <li>
+                        <img src="img/veg6.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="소고기"> 소고기
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/pork.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="돼지고기"> 돼지고기
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/chicken.png">
+                        <div>
+                          <input class="check" type="checkbox" data-val="닭고기"> 닭고기
+                        </div>
+                      </li>
+                    </ul>
+                    </form>
+                  </div>
+
+                  <div id="type" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5>야채</h5>
+                    <ul>
+                      <li>
+                        <img src="img/veg4.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="시금치"> 시금치
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg3.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="토마토"> 토마토
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg2.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="당근"> 당근
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg1.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="양상추"> 양상추
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg7.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="오레가노"> 오레가노
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg8.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="파프리카"> 파프리카
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="type" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h5>과일</h5>
+                    <ul>
+                      <li>
+                        <img src="img/veg9.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="귤"> 귤
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/veg5.jpg">
+                        <div>
+                          <input class="check" type="checkbox" data-val="라즈베리"> 라즈베리
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <input type="submit" value="완료" id="submit">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myBox" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div id="contain1">
+            <h2>My Box</h2>
+            <div id="myBox-inner">
+              <h4>Removed Items</h4>
+                <div id="selections">
+                  <p>소고기</p>
+                  <select class="selectpicker">
+                    <option>선택해주세요</option>
+                    <optgroup label="육류">
+                      <option>소고기</option>
+                      <option>돼지고기</option>
+                      <option>닭고기</option>
+                    </optgroup>
+                    <optgroup label="야채">
+                      <option>시금치</option>
+                      <option>토마토</option>
+                      <option>당근</option>
+                      <option>양상추</option>
+                      <option>오레가노</option>
+                      <option>파프리카</option>
+                    </optgroup>
+                    <optgroup label="과일">
+                      <option>귤</option>
+                      <option>라즈베리</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

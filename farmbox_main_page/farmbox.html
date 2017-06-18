@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only"></span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="pull-left" href="#"><img src="farmboxlogo.png" width=80em></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">our story</a></li>
+            <li><a href="recipebook.pdf" target=_blank>recipes</a></li>
+            <li><a href="#">magazine</a></li>
+          </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">My Box</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#theCarousel" data-slide-to="1"></li>
+        <li data-target="#theCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <div class="slide1"></div>
+            <img src="jumbotron1.jpg">
+          <div class="carousel-caption">
+            <h3>장을 보러 갈 필요 없이</h3>
+            <h2>집에서 편하게 받아보는 지역 특산물</h2>
+            <a href="#" class="btn btn-default btn-lg" role="button">서비스 알아보기</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slide2"></div>
+            <img src="jumbotron2.jpg">
+          <div class="carousel-caption">
+            <h3>팜박스가 직접 고른</h3>
+            <h2>믿을 수 있는 생산자와 농산물</h2>
+            <a href="#" class="btn btn-default btn-lg" role="button">서비스 알아보기</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="slide3"></div>
+            <img src="jumbotron3.jpg">
+          <div class="carousel-caption">
+            <h3>같은 재료로 더 특별하게</h3>
+            <h2>팜박스 재료로 스타 셰프가 연구한 레시피</h2>
+            <a href="#" class="btn btn-default btn-lg" role="button">서비스 알아보기</a>
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+        </div>
+      </div>
+
+    <div id="boxContents">
+      <h4>팜박스 엿보기</h4>
+      <div class="your-class">
+        <div><img src="veg1.jpg"></div>
+        <div><img src="veg2.jpg"></div>
+        <div><img src="veg3.jpg"></div>
+        <div><img src="veg4.jpg"></div>
+        <div><img src="veg5.jpg"></div>
+        <div><img src="veg6.jpg"></div>
+        <div><img src="veg7.jpg"></div>
+        <div><img src="veg8.jpg"></div>
+        <div><img src="veg9.jpg"></div>
+      </div>
+    </div>
+
+    <div class="learn-more">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4>생산자 이야기</h4>
+            <a href="#"><img id="producer" src="farmer1.jpg" width=100%></a>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4>이달의 레시피</h4>
+
+          <div id="RecipeCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <div class="slide1"></div>
+                  <a href="dallaesteak.pdf" target=_blank><img src="recipe1.jpg"></a>
+              </div>
+
+              <div class="item">
+                <div class="slide2"></div>
+                  <a href="raspberry-smoothie.pdf" target=_blank><img src="recipe2.jpg"></a>
+              </div>
+
+              <div class="item">
+                <div class="slide3"></div>
+                  <a href="dallae.pdf" target=_blank><img src="recipe3.jpg"></a>
+              </div>
+
+              <a class="left carousel-control" href="#RecipeCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+              <a class="right carousel-control" href="#RecipeCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    <div id="pixlee_container">
+      <h4>Instagram</h4>
+    </div>
+    <script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'iniAszEPu5Wb7wLcU475'});Pixlee.addSimpleWidget({widgetId:590972});};</script><script src="https://assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" rel="stylesheet" />
+
+    <script src="slick/slick.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

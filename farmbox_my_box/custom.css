@@ -1,0 +1,96 @@
+.navbar-nav {
+  margin-top: 0.8em;
+}
+
+.navbar .pull-left {
+  padding: 0.5em 2em;
+}
+
+body {
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+
+h2 {
+  font-weight: 100;
+  text-align: center;
+}
+
+h4 {
+  padding-left: 2em;
+}
+
+h5 {
+  text-align: center;
+}
+
+.row img {
+  max-width: 250px;
+  padding: 2em;
+}
+
+.row {
+  height: 100%;
+}
+
+#weekBox, #myBox {
+  margin-top: 6em;
+  padding: 1em;
+  height: 100%;
+}
+
+#contain, #contain1 {
+  border-radius: 2em;
+  padding: 1em;
+  background-color: Honeydew;
+}
+
+.pre-scrollable, #selections {
+  background-color: white;
+  border-radius: 2em;
+  max-height: 520px;
+}
+
+#selections {
+  padding: 2em;
+}
+
+#submit {
+  float:right;
+  margin: 2em;
+  font-family: "Nanum Barun Gothic", sans-serif;
+  border-radius: 1.5em;
+  padding: 1em;
+}
+
+#contain {
+  margin-left: 3em;
+
+}
+
+#contain1 {
+  margin-right: 3em;
+  height: 520px;
+}
+
+#myBox-inner, #weekBox-inner {
+  padding: 1em;
+}
+
+#type {
+  margin-top: 4em;
+}
+
+#weekBox li {
+  display: inline-block;
+}
+
+.dropdown-item {
+  display: block;
+  margin-left: 2em;
+}
+
+}
+#checkboxes ul {
+  margin: 0;
+  list-style: none;
+}
